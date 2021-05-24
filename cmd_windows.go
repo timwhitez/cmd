@@ -15,6 +15,7 @@ func terminateProcess(pid int) error {
 	return p.Kill()
 }
 
+
 func setProcessGroupID(cmd *exec.Cmd) {
-	cmd.SysProcAttr = &syscall.SysProcAttr{}
+	cmd.SysProcAttr = &syscall.SysProcAttr{HideWindow: true}
 }
