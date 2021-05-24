@@ -1,9 +1,10 @@
 module github.com/timwhitez/cmd
 
-go 1.14
+go 1.16
 
 require (
 	github.com/StackExchange/wmi v0.0.0-20210224194228-fe8f1750fd46 // indirect
+	github.com/go-cmd/cmd v1.3.0
 	github.com/go-ole/go-ole v1.2.5 // indirect
 	github.com/go-test/deep v1.0.7
 	github.com/shirou/gopsutil v3.21.4+incompatible
